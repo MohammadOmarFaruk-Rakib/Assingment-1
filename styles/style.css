@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Parent_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.common_btn {
+  background-color: #1D4ED8;
+}
+
+.navlink_section ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+
+
+}
+
+.navlink_section ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+}
+
+
+/* common button styles  */
+
+.common_btn_one {
+  background-color: #1D4ED8;
+  color: white;
+  border: none;
+  padding: 8px 30px 8px 30px;
+  border-radius: 8px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+}
