@@ -56,10 +56,12 @@
   font-weight: 700;
   cursor: pointer;
 }
-.common_btn_one:hover{
+
+.common_btn_one:hover {
   background-color: orange;
 }
-.common_btn_two:hover{
+
+.common_btn_two:hover {
   background-color: orange;
 }
 
@@ -132,6 +134,7 @@
   margin-bottom: 10px;
 
 }
+
 .card p {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
@@ -141,27 +144,139 @@
 }
 
 
-.card{
-line-height: 1.7;
-border: 1px solid #E5E7EB;
-
-}
-.card_one{
-line-height: 1.7;
-border: 1px solid #E5E7EB;
-padding: 10px;
-margin-top: -10px;
+.card {
+  line-height: 1.7;
+  border: 1px solid #E5E7EB;
 
 }
 
+.card_one {
+  line-height: 1.7;
+  border: 1px solid #E5E7EB;
+  padding: 10px;
+  margin-top: -10px;
 
-.speaker_heading h1{
+}
+
+
+.speaker_heading h1 {
   font-size: 60px;
   margin-top: 150px;
   margin-bottom: 50px;
-   font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.grand_parent{
-text-align: center;
+.grand_parent {
+  text-align: center;
+}
+
+
+.secure_spot P {
+  font-size: 13px;
+  color: #888888;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.grandparen_card {
+  width: 100%;
+}
+
+.parent_secure {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+}
+
+.secure_spot {
+  width: 450px;
+  height: 470px;
+  margin-top: 100px;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #E5E7EB;
+}
+
+.secure_spot h1 {
+  font-size: 20px;
+
+}
+
+.secure_spot ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  margin-top: 30px;
+  margin-left: 30px;
+  line-height: 2.5;
+}
+
+.secure_spot ul li::marker {
+  color: #2563EB;
+}
+
+#btn-three {
+  padding: 5px 50px 5px 50px;
+  border: 2px solid #2563EB;
+  background-color: white;
+  color: #2563EB;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: 20px;
+  font: bold;
+  cursor: pointer;
+
+}
+
+#btn-three_one {
+  padding: 5px 70px 5px 70px;
+  background-color: #2563EB;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: 20px;
+  font: bold;
+  cursor: pointer;
+
+}
+
+#btn-three:hover {
+  background-color: rgb(31, 15, 255);
+  color: white;
+}
+
+.secure_h1 {
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.secure_h1 h1 {
+  font-size: 50px;
+}
+
+.secure_h1 p {
+  margin-top: 10px;
+  color: #575757;
+  font-size: 16px;
+}
+
+.special {
+  background-color: #0D1B2A;
+}
+
+.special h1 {
+  color: white;
+}
+
+.special p {
+  color: white;
+}
+
+.special ul li {
+  color: white;
 }
