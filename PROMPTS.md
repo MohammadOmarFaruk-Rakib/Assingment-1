@@ -1,0 +1,1 @@
+prompt : generate a section for according to this criterai : i have a webiste called devconference which is an developer conference website now i want you to generate a section randomly for my website that looks eye catchy and al ui friendly with my webisite now using html css only
